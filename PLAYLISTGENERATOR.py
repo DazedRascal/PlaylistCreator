@@ -5,7 +5,7 @@ import random
 import urllib.parse
 
 # --- КОНФИГУРАЦИЯ СИСТЕМЫ ---
-DEFAULT_HF_TOKEN = "" 
+DEFAULT_HF_TOKEN = os.getenv('HF_TOKEN')
 MODEL_REPO_ID = "Qwen/Qwen2.5-72B-Instruct"
 
 # --- BACKEND: СЕРВИС ПОЛУЧЕНИЯ ДАННЫХ ---
