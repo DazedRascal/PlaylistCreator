@@ -196,8 +196,6 @@ def main():
             name="Агент 4 (Discovery Engine)",
             role="""
             1. Предложи 3 НОВЫХ трека от других исполнителей (которых нет в списке).
-            2. Предложи 3 названия популярных плейлистов Spotify для этого настроения.
-            3. Сгенерируй ссылки: `[Название](http://googleusercontent.com/spotify.com/search)`.
             """,
             client=client
         )
